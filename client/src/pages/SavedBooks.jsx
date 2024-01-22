@@ -37,6 +37,7 @@ const SavedBooks = () => {
     }
   };
 
+  // refetch user data every time component is rendered
   useEffect(() => {
     refetch();
   }, []);
